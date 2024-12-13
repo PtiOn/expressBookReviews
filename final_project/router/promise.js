@@ -103,4 +103,4 @@ promise_routes.get('/review/:isbn', (req, res) => {
         });
 });
 
-module.exports = promise_routes;
+module.exports.promise = promise_routes;
